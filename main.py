@@ -38,12 +38,12 @@ def get_colors(image, num_colors, show_chart):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    image = get_image("images/sample_image.jpeg")
+    image = get_image("sample_image.jpeg")
     print(type(image))
     print(image.shape)
     cv2.imshow("image", image)
     cv2.waitKey(0)
 
-    get_colors(get_image("images/sample_image.jpeg"), 8, True)
+    get_colors(get_image("sample_image.jpeg"), 8, True)
 
 
